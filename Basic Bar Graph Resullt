@@ -7,3 +7,5 @@ plt.xlabel('Direct Outreach to Users')
 plt.ylabel('Referral outreach to Users')
 plt.title("Comparing User Engagement")
 plt.show()
+
+//corresponds with output in Basic Bar Graph Result.png
