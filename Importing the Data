@@ -1,0 +1,5 @@
+import pandas as pd
+import csv
+getCSV = pd.read_csv('data-export.csv',skiprows=10,skipfooter=0,engine = 'python')
+getCSV.tail()
+#structure, which columns 
