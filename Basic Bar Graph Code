@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+x=[175,88,5,7]
+y=[128,105,6,1]
+plt.plot(x,y)
+plt.xlabel('Direct Outreach to Users')
+plt.ylabel('Referral outreach to Users')
+plt.title("Comparing User Engagement")
+plt.show()
