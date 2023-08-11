@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+left_coordinates=[1,2,3,4,5]
+heights=[101.1185,148.5,112,294,85]
+bar_labels=['United States','South Africa','Mexico','Netherlands','               India/Spain/Venezuela']
+plt.bar(left_coordinates,heights,tick_label=bar_labels,width=0.3)
+plt.xlabel('Top Countries')
+plt.ylabel('Average Engagement Time')
+plt.title("Comparing Average Engagement Time on NSTEM Website from Top 7 Countries (Jul 2-9)")
+plt.show()
